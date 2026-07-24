@@ -381,7 +381,7 @@ a.contact__row:hover{ opacity:0.8; }
 }
 .contact__row-text{ display:flex; flex-direction:column; gap:3px; }
 .contact__row-text strong{ font-family: var(--font-mono); font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color: var(--amber); }
-.contact__row-text span{ color: rgba(255,255,255,0.9); font-size:15px; }
+.contact__row-text span{ color: rgba(255,255,255,0.9); font-size:15px; overflow-wrap: anywhere; }
 .contact__cta{ margin-top: 22px; justify-content:center; }
 
 .contact__map{
