@@ -160,7 +160,7 @@ button{ font: inherit; cursor:pointer; }
   padding: 6px 24px 18px;
   border-top: 1px solid rgba(255,255,255,0.08);
 }
-.navbar__mobile .navbar__contact-item{ padding: 10px 0; font-size:14px; }
+.navbar__mobile .navbar__contact-item{ padding: 10px 0; font-size:14px; overflow-wrap: anywhere; }
 
 @media (max-width: 880px){
   .navbar__contact{ display:none; }
